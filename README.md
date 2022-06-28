@@ -8,9 +8,9 @@ Built a note taker application that enables users to add, update and delete note
 Express.js
 
 ## Application and Packages
-Jest
-uniqid
-Heroku
+Jest  
+uniqid  
+Heroku  
 
 ## User Story
 

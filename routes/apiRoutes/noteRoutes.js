@@ -12,7 +12,7 @@ router.get('/notes', (req, res) => {
 router.post('/notes', (req, res) => {
     const notes = readNotes();
 
-    // set id based on what the next index of the array will be
+    // set unique id for the record
     req.body.id = uniqid();
 
     // add note to json file and notes array in this function
